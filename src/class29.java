@@ -1,4 +1,4 @@
-public class class28 {
+public class class29 {
     public static void main(String[] args) {
         String name = "CipherSchools"; // created using string literals - stored in method area
         String name2 = "CipherSchools";
@@ -27,5 +27,23 @@ public class class28 {
         String s4 = s2.concat(s3);
         System.out.println(s4);
         System.out.println(s2);// s2 remains same
+
+        System.out.println("*****************************************************");
+        System.out.println("2. Checking if strings are equal in value");
+        // 2. Checking if strings are equal in value
+        
+        System.out.println(name.equals(name2));
+        System.out.println(name.equals(name3));
+        // Equals finctions -> object class
+        // This generally compares references(hashcodes) of objects (just like ==), but for string class it has been overridden to check for content equality
+        
+        System.out.println("*****************************************************");
+        System.out.println("3. Creating new String object from character array");
+        // 3. Creating new String object from character array
+        char arr[] = {'C', 'I', 'P', 'H', 'E', 'R'};
+        String strFromArr = new String(arr); // constructor overloaded
+        System.out.println(strFromArr);
+        
     }
 }
+
