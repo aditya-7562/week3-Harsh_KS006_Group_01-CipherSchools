@@ -90,7 +90,7 @@ public class class30 {
         for(int i = 0; i < backSlashArr.length; i++){
             System.out.println(backSlashArr[i]);
         }
-
+        sc.close();
     }
 }
 
