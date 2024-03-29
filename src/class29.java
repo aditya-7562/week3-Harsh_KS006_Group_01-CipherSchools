@@ -28,18 +28,18 @@ public class class29 {
         System.out.println(s4);
         System.out.println(s2);// s2 remains same
 
+        // 2. Checking if strings are equal in value
         System.out.println("*****************************************************");
         System.out.println("2. Checking if strings are equal in value");
-        // 2. Checking if strings are equal in value
         
         System.out.println(name.equals(name2));
         System.out.println(name.equals(name3));
         // Equals finctions -> object class
         // This generally compares references(hashcodes) of objects (just like ==), but for string class it has been overridden to check for content equality
         
+        // 3. Creating new String object from character array
         System.out.println("*****************************************************");
         System.out.println("3. Creating new String object from character array");
-        // 3. Creating new String object from character array
         char arr[] = {'C', 'I', 'P', 'H', 'E', 'R'};
         String strFromArr = new String(arr); // constructor overloaded
         System.out.println(strFromArr);
